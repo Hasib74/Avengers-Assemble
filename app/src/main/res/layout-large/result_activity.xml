@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="#961B1B"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="73dp"
+            android:text="RESULT"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/layout1"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/card1"
+                android:layout_width="98dp"
+                android:layout_height="181dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#f5df1a"
+
+                android:padding="10dp"
+                app:cardBackgroundColor="#e9c02222"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <ImageView
+                    android:layout_margin="15dp"
+                    android:id="@+id/first_Image"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                 />
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="188dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+
+                    android:id="@+id/first_playername"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_margin="10dp"
+                    android:text="EASY"
+                    android:textColor="#ffff"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/first_imagename"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:text="SABBIR"
+                    android:textColor="#ffff" />
+
+                <TextView
+                    android:id="@+id/first_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:text="02:10s"
+                    android:textColor="#ffff" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="98dp"
+                android:layout_height="181dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#f5df1a"
+
+                android:padding="10dp"
+                app:cardBackgroundColor="#e9c02222"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:id="@+id/second_Image"
+
+                   />
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="188dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/second_player_name"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_margin="10dp"
+                    android:text="EASY"
+                    android:textColor="#ffff"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/second_imagename"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp" android:text="SABBIR"
+                    android:textColor="#ffff" />
+
+                <TextView
+                    android:id="@+id/second_Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:text="02:10s"
+                    android:textColor="#ffff" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="98dp"
+                android:layout_height="181dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#f5df1a"
+
+                android:padding="10dp"
+                app:cardBackgroundColor="#e9c02222"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="15dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:id="@+id/thirt_Image"
+
+                  />
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="188dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/thirt_player_name"
+                    android:textAlignment="textStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="51dp"
+                    android:layout_margin="10dp"
+                    android:text="EASY"
+                    android:textColor="#ffff"
+                    android:gravity="start" />
+
+                <TextView
+                    android:id="@+id/thirt_imagename"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp" android:text="SABBIR"
+                    android:textColor="#ffff" />
+
+                <TextView
+                    android:id="@+id/thirt_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="10dp"
+                    android:text="02:10s"
+                    android:textColor="#ffff" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

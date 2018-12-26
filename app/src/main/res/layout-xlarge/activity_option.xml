@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#961B1B"
+
+    >
+
+    <ImageView
+        android:id="@+id/optionicon"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_avangers" />
+
+
+    <LinearLayout
+        android:id="@+id/optionlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/optionicon"
+        android:gravity="center"
+         android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/sounds"
+            android:layout_width="500dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_sound" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="500dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/result_button"
+
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="450dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reset"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            />
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+-->
+
+
+        <ImageView
+            android:id="@+id/howtoplay"
+            android:layout_width="500dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_howtoplay" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

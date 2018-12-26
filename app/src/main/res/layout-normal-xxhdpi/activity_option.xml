@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#961B1B"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/optionicon"
+        android:layout_width="230dp"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/logo_avangers" />
+
+
+    <LinearLayout
+        android:id="@+id/optionlayout"
+        android:layout_below="@+id/optionicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sounds"
+            android:layout_width="246dp"
+            android:layout_height="74dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_sound" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="246dp"
+            android:layout_height="74dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/result_button"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="218dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/reset"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+-->
+
+
+        <ImageView
+            android:id="@+id/howtoplay"
+            android:layout_width="246dp"
+            android:layout_height="74dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/image_howtoplay" />
+
+
+    </LinearLayout>
+
+   <!-- <RelativeLayout
+        android:padding="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/optionbackbtn"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/left"
+            android:elevation="8dp"
+
+            />
+
+        <Button
+            android:id="@+id/optionbalbtn"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/right"
+            android:adjustViewBounds="true"
+            android:elevation="8dp"
+            />
+
+    </RelativeLayout>-->
+
+
+</RelativeLayout>

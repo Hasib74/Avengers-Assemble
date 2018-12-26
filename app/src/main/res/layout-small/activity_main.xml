@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#961B1B"
+    tools:context="com.example.hasib.a2dcomicspuzzlegame.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <ImageView
+        android:id="@+id/avenger_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:transitionName="tran"
+        android:src="@drawable/logo_avangers" />
+
+   <LinearLayout
+       android:id="@+id/menu_section"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/avenger_image"
+       android:orientation="vertical"
+       android:layout_marginTop="@dimen/_5sdp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:layout_width="55dp"
+           android:layout_height="18dp"
+           android:background="@drawable/play"
+           android:layout_gravity="center"
+           android:id="@+id/play"
+           android:layout_margin="2dp"
+           />
+
+
+       <Button
+
+
+           android:id="@+id/option"
+           android:layout_width="55dp"
+           android:layout_height="18dp"
+           android:layout_gravity="center"
+           android:background="@drawable/option"
+           android:layout_margin="2dp"
+
+           />
+
+       <Button
+
+           android:background="@drawable/about"
+           android:id="@+id/about"
+           android:layout_width="55dp"
+           android:layout_height="18dp"
+           android:layout_margin="2dp"
+           />
+   </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+    <!--    <RelativeLayout
+            android:padding="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:layout_alignParentLeft="true"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/left"
+                android:elevation="8dp"
+                android:id="@+id/balbtn"
+
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:layout_alignParentRight="true"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/right"
+                android:adjustViewBounds="true"
+                android:elevation="8dp"
+                android:id="@+id/balbtn"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Avengers Assemble</string>
+    <string name="play">Play</string>
+    <string name="about_us">About us</string>
+    <string name="how_to_play">How to play</string>
+    <string name="title_activity_selection">Selection</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="_00_00">00.00</string>
+    <string name="hight_score">Hight Score:</string>
+    <string name="hello">Hello</string>
+    <string name="hi">hi</string>
+    <string name="high_score">High Score</string>
+    <string name="_0_00">00.00</string>
+    <string name="high_scor">High Score : </string>
+    <string name="save">Save</string>
+    <string name="_00_0">00:00</string>
+    <string name="high_sco">High Score : </string>
+    <string name="hard">Hard</string>
+    <string name="mediam">Mediam</string>
+    <string name="normal">Normal</string>
+    <string name="select">SELECT</string>
+    <string name="easy">Easy</string>
+    <string name="about_text">"Avengers Assemble" is a simple 2d puzzle game. In here you will be given a picture of any avengers heros with unsorted blocks. Your challenge is to sort them and make a complete real picture of that hero.
+Here are different types of challenge such as easy, medium and hard. Try to start from easy stage and complete all of them. Please start new stage every time when the previous stage is completed.
+Thanks for installing. Keep playing and enjoy.</string>
+
+
+    <string name="howToPlay">
+Avengers Assemble is a simple 2D puzzle game. There are in esay mode 8 piece\'s, in normal mode 15 piece\'s and in hard mode 24 piece\'s block\'s of a picture and every mode there are a blank block. You have to swap a picture\'s block with blank block and by swaping all block\'s with blank block you have to recreate the hole picture. In every mode there are six puzzle. You have to unlock one by solving before one. First one in every mode is not locked. There are two picture for you can undestand how to need to recreate the hole puzzle picture.
+    </string>
+
+</resources>

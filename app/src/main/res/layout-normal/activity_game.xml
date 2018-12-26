@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#961B1B"
+    android:orientation="vertical"
+    android:id="@+id/gameActivityLayout"
+    >
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/highScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace"
+        android:text="EASY"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/highScoreText"
+        android:id="@+id/middle"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/game_activity_background"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="400dp"
+        >
+
+        <com.example.hasib.a2dcomicspuzzlegame.GestureDetectGridView
+            android:id="@+id/grid"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:context="com.example.hasib.a2dcomicspuzzlegame.GameActivity"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/middle">
+
+        <ImageView
+
+            android:layout_below="@+id/mediam"
+            android:id="@+id/picture"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/game_activity_background"
+            tools:ignore="RtlCompat,RtlHardcoded"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:background="@drawable/game_activity_background"
+            android:id="@+id/timeview"
+            android:padding="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_toRightOf="@id/picture"
+            android:textAlignment="center"
+            android:text="00:00:00"
+            android:textSize="25dp" />
+
+
+       <!-- <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginEnd="19dp"
+            android:baselineAlignBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp" />-->
+    </RelativeLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

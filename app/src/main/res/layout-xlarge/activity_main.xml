@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#961B1B"
+    tools:context="com.example.hasib.a2dcomicspuzzlegame.MainActivity">
+
+    <ImageView
+        android:transitionName="tran"
+        android:id="@+id/avenger_image"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/logo_avangers" />
+
+    <LinearLayout
+        android:id="@+id/menu_section"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/avenger_image"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:background="@drawable/play"
+            android:layout_gravity="center"
+            android:id="@+id/play"
+            android:layout_margin="5dp"
+            />
+
+
+        <Button
+
+            android:id="@+id/option"
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/option"
+            android:layout_margin="5dp"
+
+            />
+
+        <Button
+
+            android:background="@drawable/about"
+            android:id="@+id/about"
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="40sp">
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/left"
+            android:elevation="8dp"
+            android:id="@+id/backbtn"
+
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/right"
+            android:elevation="8dp"
+            android:id="@+id/balbtn"
+            />
+
+    </RelativeLayout>&ndash;&gt;-->
+
+</RelativeLayout>
